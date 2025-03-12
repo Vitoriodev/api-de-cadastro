@@ -15,10 +15,10 @@ public class PesssoaModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) // Auto incremento, ele vai passa uma estrateira chave para cada pessoa.
-    private long id;
-    private String nome;
-    private String email;
-    private int idade;
+    long id;
+    String nome;
+    String email;
+    int idade;
 
     public PesssoaModel(String nome, String email, int idade) {
         this.nome = nome;
